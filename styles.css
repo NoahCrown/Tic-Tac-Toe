@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root{
+    --primary-color:#212845;
+    --secondary-color:#F8D320;
+    --tertiary-color:#216EFC;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2em;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 2.4rem;
+    font-weight: 700;;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid var(--tertiary-color);
+    width: 50%;
+    margin-top: 5px;
+    margin: 0 auto;
+    max-width: 150px;
+  }
+
+#inputs, #buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    margin-bottom: 1em;
+
+}
+
+input {
+    padding: 1em;
+    width: 50%;
+    border-radius: 1em;
+    max-width: 300px;
+    margin-top: 3em;
+
+}
+
+button{
+    padding: 1em;
+    width: 50%;
+    background-color: var(--secondary-color);
+    border-radius: .7em;
+    font-weight: 700;
+    font-size: 1.1rem;
+    max-width: 300px;
+}
+
+#gameboard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 2em;
+    max-width: 600px;
+    margin: 0 auto
+}
+
+.square{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid var(--tertiary-color);
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 30%;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.message{
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+@media (min-width: 576px){
+
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
